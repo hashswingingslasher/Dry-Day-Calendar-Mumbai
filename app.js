@@ -55,9 +55,7 @@ class DryDaysCalendar {
         ],
         "11": [
           { date:5, name:"Guru Nanak Jayanti", description:"Sikh festival; dry day." }
-        ],
-        "12": [
-          { date:25, name:"Christmas", description:"Christian festival; dry day." }
+        ]
         ]
       },
       "2026": {
