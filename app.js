@@ -7,94 +7,95 @@ class DryDaysCalendar {
     this.today = new Date();
 
     // Dry days data (Mumbai/Maharashtra excise-observed set)
-    this.dryDaysData = {
-      "2025": {
-        "1": [
-          { "date": 14, "name": "Makar Sankranti", "description": "Alcohol sales restricted by State Excise on this festival day." },
-          { "date": 26, "name": "Republic Day", "description": "National day observed as a dry day in Maharashtra." },
-          { "date": 30, "name": "Shaheed Diwas", "description": "Martyrs Day observed as a dry day in Maharashtra." }
-        ],
-        "2": [
-          { "date": 19, "name": "Shivaji Maharaj Jayanti", "description": "State observance; dry day in Maharashtra." },
-          { "date": 23, "name": "Maharishi Dayanand Jayanti", "description": "Observed dry day in Maharashtra." },
-          { "date": 26, "name": "Maha Shivratri", "description": "Religious festival; dry day." }
-        ],
-        "3": [
-          { "date": 14, "name": "Holi", "description": "Festival; dry day." },
-          { "date": 31, "name": "Eid‑ul‑Fitr", "description": "Religious festival; dry day." }
-        ],
-        "4": [
-          { "date": 6,  "name": "Ram Navami", "description": "Religious festival; dry day." },
-          { "date": 10, "name": "Mahavir Jayanti", "description": "Religious festival; dry day." },
-          { "date": 14, "name": "Ambedkar Jayanti", "description": "State observance; dry day." },
-          { "date": 18, "name": "Good Friday", "description": "Religious observance; dry day." }
-        ],
-        "5": [
-          { "date": 1,  "name": "Maharashtra Day", "description": "State formation day; dry day." },
-          { "date": 12, "name": "Buddha Purnima", "description": "Religious observance; dry day." }
-        ],
-        "6": [
-          { "date": 7, "name": "Eid‑al‑Adha", "description": "Religious festival; dry day." }
-        ],
-        "7": [
-          { "date": 6,  "name": "Muharram & Ashadhi Ekadashi", "description": "Religious observances; dry day." },
-          { "date": 10, "name": "Guru Purnima", "description": "Religious observance; dry day." }
-        ],
-        "8": [
-          { "date": 15, "name": "Independence Day", "description": "National day; dry day." },
-          { "date": 16, "name": "Janmashtami", "description": "Religious festival; dry day." },
-          { "date": 27, "name": "Ganesh Chaturthi", "description": "Major festival in Maharashtra; dry day." }
-        ],
-        "9": [
-          { "date": 5, "name": "Eid‑e‑Milad", "description": "Religious festival; dry day." }
-        ],
-        "10": [
-          { "date": 2,  "name": "Gandhi Jayanti & Dussehra", "description": "National day and festival; dry day." },
-          { "date": 20, "name": "Diwali", "description": "Festival; dry day." }
-        ],
-        "11": [
-          { "date": 5, "name": "Guru Nanak Jayanti", "description": "Religious festival; dry day." }
-        ],
-        "12": [
-          { "date": 25, "name": "Christmas", "description": "Religious festival; dry day." }
-        ]
-      },
-      "2026": {
-        "1": [
-          { "date": 14, "name": "Makar Sankranti", "description": "Festival; dry day." },
-          { "date": 26, "name": "Republic Day", "description": "National day; dry day." },
-          { "date": 30, "name": "Shaheed Diwas", "description": "Observance; dry day." }
-        ],
-        "2": [
-          { "date": 19, "name": "Shivaji Maharaj Jayanti", "description": "State observance; dry day." },
-          { "date": 16, "name": "Maha Shivratri", "description": "Religious festival; dry day." }
-        ],
-        "3": [
-          { "date": 6,  "name": "Holi", "description": "Festival; dry day." },
-          { "date": 21, "name": "Eid‑ul‑Fitr", "description": "Religious festival; dry day." }
-        ],
-        "4": [
-          { "date": 14, "name": "Ambedkar Jayanti", "description": "State observance; dry day." },
-          { "date": 3,  "name": "Good Friday", "description": "Religious observance; dry day." }
-        ],
-        "5": [
-          { "date": 1, "name": "Maharashtra Day", "description": "State formation day; dry day." },
-          { "date": 2, "name": "Buddha Purnima", "description": "Religious observance; dry day." }
-        ],
-        "8": [
-          { "date": 15, "name": "Independence Day", "description": "National day; dry day." },
-          { "date": 6,  "name": "Janmashtami", "description": "Religious festival; dry day." },
-          { "date": 17, "name": "Ganesh Chaturthi", "description": "Major festival; dry day." }
-        ],
-        "10": [
-          { "date": 2,  "name": "Gandhi Jayanti", "description": "National day; dry day." },
-          { "date": 11, "name": "Diwali", "description": "Festival; dry day." }
-        ],
-        "12": [
-          { "date": 25, "name": "Christmas", "description": "Religious festival; dry day." }
-        ]
-      }
-    };
+  this.dryDaysData = {
+  "2025": {
+    "1": [
+      { date: 14, name: "Makar Sankranti", description: "Hindu harvest festival; alcohol sales prohibited in Mumbai." },
+      { date: 26, name: "Republic Day", description: "National holiday; dry day across India." },
+      { date: 30, name: "Shaheed Diwas", description: "Martyrs' Day honoring freedom fighters; dry day in Maharashtra." }
+    ],
+    "2": [
+      { date: 19, name: "Chhatrapati Shivaji Maharaj Jayanti", description: "Birth anniversary of the Maratha king; state observance dry day." },
+      { date: 23, name: "Maharishi Dayanand Saraswati Jayanti", description: "Birth anniversary of Arya Samaj founder; dry day in Maharashtra." },
+      { date: 26, name: "Maha Shivratri", description: "Major Hindu festival; dry day." }
+    ],
+    "3": [
+      { date: 14, name: "Holi", description: "Festival of colors; dry day." },
+      { date: 31, name: "Eid-ul-Fitr", description: "Islamic festival marking end of Ramadan; dry day." }
+    ],
+    "4": [
+      { date: 6, name: "Ram Navami", description: "Hindu festival celebrating Lord Rama's birth; dry day." },
+      { date: 10, name: "Mahavir Jayanti", description: "Jain festival; dry day." },
+      { date: 14, name: "Ambedkar Jayanti", description: "Birth anniversary of Dr. B.R. Ambedkar; dry day." },
+      { date: 18, name: "Good Friday", description: "Christian observance; dry day." }
+    ],
+    "5": [
+      { date: 1, name: "Maharashtra Day", description: "State formation day; dry day in Maharashtra." },
+      { date: 12, name: "Buddha Purnima", description: "Buddhist festival; dry day." }
+    ],
+    "6": [
+      { date: 7, name: "Eid-al-Adha", description: "Islamic festival of sacrifice; dry day." }
+    ],
+    "7": [
+      { date: 6, name: "Muharram & Ashadhi Ekadashi", description: "Islamic New Year and Hindu observance; dry day." },
+      { date: 10, name: "Guru Purnima", description: "Festival honoring spiritual teachers; dry day." }
+    ],
+    "8": [
+      { date: 15, name: "Independence Day", description: "National holiday; dry day across India." },
+      { date: 16, name: "Janmashtami", description: "Hindu festival celebrating Lord Krishna's birth; dry day." },
+      { date: 27, name: "Ganesh Chaturthi", description: "Major Maharashtra festival; dry day." }
+    ],
+    "9": [
+      { date: 5, name: "Eid-e-Milad", description: "Islamic festival celebrating Prophet Muhammad's birth; dry day." }
+    ],
+    "10": [
+      { date: 2, name: "Gandhi Jayanti & Dussehra", description: "National holiday and Hindu festival; dry day." },
+      { date: 20, name: "Diwali", description: "Festival of lights; dry day." }
+    ],
+    "11": [
+      { date: 5, name: "Guru Nanak Jayanti", description: "Sikh festival; dry day." }
+    ],
+    "12": [
+      { date: 25, name: "Christmas", description: "Christian festival; dry day." }
+    ]
+  },
+  "2026": {
+    "1": [
+      { date: 14, name: "Makar Sankranti", description: "Hindu harvest festival; dry day." },
+      { date: 26, name: "Republic Day", description: "National holiday; dry day." },
+      { date: 30, name: "Shaheed Diwas", description: "Martyrs' Day; dry day." }
+    ],
+    "2": [
+      { date: 16, name: "Maha Shivratri", description: "Major Hindu festival; dry day." },
+      { date: 19, name: "Shivaji Maharaj Jayanti", description: "State observance; dry day." }
+    ],
+    "3": [
+      { date: 6, name: "Holi", description: "Festival of colors; dry day." },
+      { date: 21, name: "Eid-ul-Fitr", description: "Islamic festival; dry day." }
+    ],
+    "4": [
+      { date: 3, name: "Good Friday", description: "Christian observance; dry day." },
+      { date: 14, name: "Ambedkar Jayanti", description: "Dr. Ambedkar's birth anniversary; dry day." }
+    ],
+    "5": [
+      { date: 1, name: "Maharashtra Day", description: "State formation day; dry day." },
+      { date: 2, name: "Buddha Purnima", description: "Buddhist festival; dry day." }
+    ],
+    "8": [
+      { date: 6, name: "Janmashtami", description: "Hindu festival; dry day." },
+      { date: 15, name: "Independence Day", description: "National holiday; dry day." },
+      { date: 17, name: "Ganesh Chaturthi", description: "Major Maharashtra festival; dry day." }
+    ],
+    "10": [
+      { date: 2, name: "Gandhi Jayanti", description: "National holiday; dry day." },
+      { date: 11, name: "Diwali", description: "Festival of lights; dry day." }
+    ],
+    "12": [
+      { date: 25, name: "Christmas", description: "Christian festival; dry day." }
+    ]
+  }
+};
+
 
     this.monthNames = [
       'January','February','March','April','May','June',
