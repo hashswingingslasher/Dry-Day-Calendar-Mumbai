@@ -91,8 +91,8 @@ class DryDaysCalendar {
           { date:2,  name:"Gandhi Jayanti", description:"National day; dry day." },
           { date:11, name:"Diwali", description:"Festival; dry day." }
         ],
-        "12": [
-          { date:25, name:"Christmas", description:"Festival; dry day." }
+        "11": [
+          { date:5, name:"Guru Nanak Jayani", description:" Religious Festival; dry day." }
         ]
       }
     };
