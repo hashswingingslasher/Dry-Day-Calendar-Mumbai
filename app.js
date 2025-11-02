@@ -56,7 +56,6 @@ class DryDaysCalendar {
         "11": [
           { date:5, name:"Guru Nanak Jayanti", description:"Sikh festival; dry day." }
         ]
-        ]
       },
       "2026": {
         "1": [
